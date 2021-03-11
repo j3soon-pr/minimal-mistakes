@@ -571,3 +571,9 @@
     padding-left: 3.25rem
   }
 }
+
+.sidebar__right.sticky > .toc > .toc__menu {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  max-height: calc(100vh - 7em);
+}
